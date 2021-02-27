@@ -10,7 +10,8 @@ let dynamicRoutes = () => {
 }
 
 export default {
-  mode: "universal",
+  ssr: false,
+  
   /*
    ** Headers of the page
    */
