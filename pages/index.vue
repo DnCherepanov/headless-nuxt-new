@@ -79,34 +79,6 @@ export default {
 
 <style lang="scss">
 
-.page-enter-active {
-  animation: acrossIn .40s ease-out both;
-} 
-
-.page-leave-active {
-  animation: acrossOut .60s ease-in both;
-} 
-@keyframes acrossIn {
-0% {
-  transform: translate3d(-100%, 0, 0);
-  opacity: 0;
-}
-100% {
-  transform: translate3d(0, 0, 0);
-  opacity: 100%;
-}
-}
-@keyframes acrossOut {
-0% {
-  transform: translate3d(0, 0, 0);
-  opacity: 100%;
-}
-100% {
-  transform: translate3d(-100%, 0, 0);
-  opacity: 0;
-}
-}
-
 .posts {
   display: grid;
   grid-template-columns: 2fr 1fr;
