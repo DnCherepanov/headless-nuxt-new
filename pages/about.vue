@@ -35,6 +35,7 @@ export default {
 100% {
   transform: translate3d(0, 0, 0);
   opacity: 100%;
+  opacity:100%;
 }
 }
 @keyframes acrossOut {
