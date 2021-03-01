@@ -13,9 +13,10 @@ export default {
     AppNav
   }
 };
+
 </script>
 
-<style>
+<style lang="scss">
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -25,6 +26,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  height: 100vh;
 }
 
 body {
@@ -90,26 +92,5 @@ code {
 p {
   margin: 15px 0 20px;
 }
-.page-enter-active {
-  animation: acrossIn .45s ease-out both;
-} 
-.page-leave-active {
-  animation: acrossOut .65s ease-in both;
-} 
-@keyframes acrossIn {
-  0% {
-    transform: translate3d(-100%, 0, 0);
-  }
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-}
-@keyframes acrossOut {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(100%, 0, 0);
-  }
-}
+
 </style>

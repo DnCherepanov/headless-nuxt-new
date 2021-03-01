@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-archive">
     <app-masthead></app-masthead>
     <div class="posts">
       <main>
@@ -36,7 +36,6 @@
 import AppMasthead from "@/components/AppMasthead.vue";
 
 export default {
-  
   components: {
     AppMasthead
   },
@@ -69,11 +68,12 @@ export default {
         this.selectedTag = null;
       }
     }
-  }
+  },
+  
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 .posts {
   display: grid;

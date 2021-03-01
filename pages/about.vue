@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="container">
     <h1>About</h1>
     <p>We don't really know where this goes - and I'm not sure we really care. If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. If you do too much it's going to lose its effectiveness.</p>
     <p>You create the dream - then you bring it into your world. We don't need any guidelines or formats. All we need to do is just let it flow right out of us. Poor old tree. Maybe there's a little something happening right here.</p>
@@ -12,37 +12,14 @@
 
 <script>
 export default {
-  transition: {
-    mode: 'out-in',
-    css: false,
-    beforeLeave (el) {
-      console.log('about before leave')
-    },
-    leave (el, done) {
-      console.log('about leave')
-      done()
-    },
-    beforeEnter (el) {
-      console.log('about before enter')
-    },
-    enter (el, done) {
-      console.log('about enter')
-      done()
-    }
-  }
-  // Can be a String
-  
+ 
 }
 </script>
 
 <style lang="scss" scoped>
 .about {
-  margin: 30px auto 50px;
-  max-width: 800px;
-  padding: 50px 50px 70px;
   background: #222;
 }
-
 p {
   margin: 15px 0 20px;
 }
