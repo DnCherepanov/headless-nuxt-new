@@ -12,20 +12,35 @@
 
 <script>
 export default {
-  
+  transition: {
+    mode: 'out-in',
+    css: false,
+    beforeLeave (el) {
+      console.log('about before leave')
+    },
+    leave (el, done) {
+      console.log('about leave')
+      done()
+    },
+    beforeEnter (el) {
+      console.log('about before enter')
+    },
+    enter (el, done) {
+      console.log('about enter')
+      done()
+    }
+  }
   // Can be a String
   
 }
 </script>
 
 <style lang="scss" scoped>
-
-
 .about {
   margin: 30px auto 50px;
   max-width: 800px;
   padding: 50px 50px 70px;
-  background: white;
+  background: #222;
 }
 
 p {

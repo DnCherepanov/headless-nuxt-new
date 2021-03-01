@@ -44,6 +44,24 @@ export default {
   components: {
     AppMasthead
   },
+  transiton: {
+    mode: 'out-in',
+    css: false,
+    beforeLeave (el) {
+      console.log('index before leave')
+    },
+    leave (el, done) {
+      console.log('index leave')
+      done()
+    },
+    beforeEnter (el) {
+      console.log('index before enter')
+    },
+    enter (el, done) {
+      console.log('index enter')
+      done()
+    }
+  },
   data() {
     return {
       selectedTag: null,
