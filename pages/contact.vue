@@ -8,10 +8,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  
+};
 </script>
 
 <style lang="scss" scoped>
+
 .about {
   margin: 30px auto 50px;
   max-width: 800px;

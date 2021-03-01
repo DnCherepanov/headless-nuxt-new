@@ -36,6 +36,7 @@
 import AppMasthead from "@/components/AppMasthead.vue";
 
 export default {
+  
   components: {
     AppMasthead
   },
@@ -73,6 +74,7 @@ export default {
 </script>
 
 <style lang="scss">
+
 .posts {
   display: grid;
   grid-template-columns: 2fr 1fr;

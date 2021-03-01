@@ -11,10 +11,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  
+  // Can be a String
+  
+}
 </script>
 
 <style lang="scss" scoped>
+
+
 .about {
   margin: 30px auto 50px;
   max-width: 800px;

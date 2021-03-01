@@ -8,7 +8,7 @@
 export default {
   data() {
     return {
-      tagline: "Headless WordPress on the JAMstack"
+      tagline: "DIGDAT JAMstack"
     };
   }
 };
@@ -48,8 +48,8 @@ section.masthead {
       rgba(0, 0, 0, 0.65) 100%
     ),
     url("/mountains-masthead.jpg") no-repeat center center scroll; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  background-size: cover;
-  color: #333;
+      background-size: cover;
+      color: #333;
   h1 {
     color: white;
     @include fluid-type(font-size, 320px, 1366px, 30px, 65px);
