@@ -41,7 +41,7 @@ export default {
       }
     }
   },
-  
+    
 };
 </script>
 
@@ -65,12 +65,12 @@ a, a:visited {
   height: 100vh;
   background: #444;
 }
-.page-enter-active {
-  animation: acrossIn .45s ease-out both;
+.slideinout-enter-active {
+  animation: acrossIn .76s ease-out both;
 } 
 
-.page-leave-active {
-  animation: acrossOut .65s ease-in both;
+.slideinout-leave-active {
+  animation: acrossOut .76s ease-in both;
 } 
 
 @keyframes acrossIn {

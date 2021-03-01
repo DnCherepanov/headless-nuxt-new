@@ -57,6 +57,10 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [],
+  transition: {
+    name: "slideinout",
+    mode: "out-in",
+  },
   /*
    ** Build configuration
    */
@@ -64,6 +68,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    transpile: ["gsap", "gsap/Draggable"],
     extend(config, ctx) {}
   }
 }
