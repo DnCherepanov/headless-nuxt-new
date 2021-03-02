@@ -69,7 +69,8 @@ export default {
    */
   buildModules: [
     'nuxt-font-loader',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@nuxtjs/tailwindcss'
   ],
   /*
    ** Build configuration
