@@ -45,7 +45,10 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["~/assets/mixins.scss"],
+  css: [
+    "~/assets/mixins.scss",
+    "~/assets/css/tailwind.css"
+  ],
   /*
    ** Page Transitions
    */
