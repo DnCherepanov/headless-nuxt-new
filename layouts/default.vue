@@ -28,12 +28,6 @@ html {
   height: 100vh;
 }
 
-.container {
-  width: 100vw;
-  height: 100vh;
-  padding: 3em;
-}
-
 h1,
 h2,
 h3, p {
