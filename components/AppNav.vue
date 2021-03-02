@@ -9,7 +9,7 @@
           <nuxt-link to="/about">About</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/archive">Archive</nuxt-link>
+          <nuxt-link to="/blog">Archive</nuxt-link>
         </li>
         <li>
           <nuxt-link to="/contact">Contact</nuxt-link>

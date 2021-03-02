@@ -1,8 +1,8 @@
-// tailwind.config.js
 module.exports = {
   purge: [],
   purge: [
     './components/**/*.{vue,js}',
+    './assets/**/*.{vue,js,scss}',
     './layouts/**/*.vue',
     './pages/**/*.vue',
     './plugins/**/*.{js,ts}',
