@@ -17,7 +17,5 @@ export default {
 </script>
 
 <style lang="scss">
-p {
-  margin: 15px 0 20px;
-}
+
 </style>

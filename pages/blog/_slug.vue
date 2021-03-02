@@ -35,14 +35,8 @@ main.post {
 }
 
 h1 {
-  color: black;
   font-size: 40px;
 }
-
-section {
-  color: #444;
-}
-
 .date {
   text-align: center;
 }

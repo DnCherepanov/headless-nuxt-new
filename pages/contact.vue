@@ -12,7 +12,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-p {
-  margin: 15px 0 20px;
-}
+
 </style>
