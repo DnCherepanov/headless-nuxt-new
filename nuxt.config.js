@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios from "axios";
 let dynamicRoutes = () => {
   const routes = axios
     .get("https://headlessrbg.wpengine.com/wp-json/wp/v2/posts?page=1&per_page=20")
@@ -26,8 +26,7 @@ export default {
       }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      { url: 'https://fonts.googleapis.com/css?family=Alata|Open+Sans&display=swap' }
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
     ]
   },
   /*
@@ -64,6 +63,7 @@ export default {
     "~/plugins/tags.server.js",
     "~/plugins/dateformat.js"
   ],
+
   generate: {
     routes: dynamicRoutes
   },

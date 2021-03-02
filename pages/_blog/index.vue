@@ -9,8 +9,9 @@
           </h3>
           <small>{{ post.date | dateformat }}</small>
           <div v-html="post.excerpt.rendered"></div>
-          <nuxt-link :to="blog/+post.slug" class="readmore slide">Read more ⟶</nuxt-link>
+          <nuxt-link :to="/blog/+post.slug" class="readmore slide">Read more ⟶</nuxt-link>
         </div>
+        <infinite-loading spinner="spiral" @infinite="infiniteScroll"></infinite-loading>
       </main>
       <aside>
         <h2 class="tags-title">Tags</h2>
@@ -69,8 +70,7 @@ export default {
         this.selectedTag = null;
       }
     }
-  },
-  
+  } 
 };
 </script>
 
