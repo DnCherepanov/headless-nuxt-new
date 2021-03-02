@@ -13,12 +13,12 @@
 <script>
 export default {
  
-}
+};
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .about {
-  background: rgba(200, 210, 23, 0.533);
+  background: rgba(14, 177, 139);
 }
 p {
   margin: 15px 0 20px;

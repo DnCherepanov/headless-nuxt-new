@@ -1,5 +1,5 @@
 <template>
-  <div class="container archive">
+  <div class="archive">
     <app-masthead></app-masthead>
     <div class="posts">
       <main>

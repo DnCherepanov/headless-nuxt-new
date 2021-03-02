@@ -45,20 +45,6 @@ export default {
 </script>
 
 <style lang="scss">
-html, body {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  background: #222;
-  color: white;
-  width: 100vw;
-  height: 100vh;
-}
-a, a:visited {
-  color: #3edada;
-  text-decoration: none;
-}
 
-.container {
-  width: 100vw;
-  height: 100vh;
-}
+
 </style>
