@@ -1,5 +1,5 @@
 <template>
-  <div class="container home">
+  <div>
     <app-masthead></app-masthead>
   </div>
 </template>
@@ -39,10 +39,9 @@ export default {
       } else {
         this.selectedTag = null;
       }
-    }
-  },
-    
-};
+    }  
+  }
+} 
 </script>
 
 <style lang="scss">
@@ -53,41 +52,13 @@ html, body {
   width: 100vw;
   height: 100vh;
 }
-
 a, a:visited {
   color: #3edada;
   text-decoration: none;
 }
 
 .container {
-  padding: 60px;
   width: 100vw;
   height: 100vh;
-  background: #444;
-}
-.slideinout-enter-active {
-  animation: acrossIn .76s ease-out both;
-} 
-
-.slideinout-leave-active {
-  animation: acrossOut .76s ease-in both;
-} 
-
-@keyframes acrossIn {
-  0% {
-    transform: translate3d(-100%, 0, 0);
-  }
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes acrossOut {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(100%, 0, 0);
-  }
 }
 </style>

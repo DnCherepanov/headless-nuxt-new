@@ -1,5 +1,5 @@
 <template>
-  <div class="container-archive">
+  <div class="container archive">
     <app-masthead></app-masthead>
     <div class="posts">
       <main>
@@ -74,7 +74,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .posts {
   display: grid;
   grid-template-columns: 2fr 1fr;

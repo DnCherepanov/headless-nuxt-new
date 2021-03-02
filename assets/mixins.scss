@@ -28,3 +28,29 @@
 
   @return $number;
 }
+
+.slideinout-enter-active {
+  animation: acrossIn .56s ease-out both;
+} 
+
+.slideinout-leave-active {
+  animation: acrossOut .46s ease-in both;
+} 
+
+@keyframes acrossIn {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes acrossOut {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
+}

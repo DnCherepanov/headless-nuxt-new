@@ -30,7 +30,7 @@ export default {
       {
         rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css?family=Alata|Open+Sans&display=swap"
+          "https://fonts.googleapis.com/css?family=Alata|Open+Sans&display=swap",
       }
     ]
   },
@@ -41,7 +41,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["~/assets/mixins.scss"],
+  css: ["~assets/mixins.scss"],
+  pageTransition: {
+    name: "slideinout",
+    mode: "out-in",
+  },
   /*
    ** Plugins to load before mounting the App
    */
@@ -56,10 +60,14 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [],
-  transition: {
-    name: "slideinout",
-    mode: "out-in",
+  buildModules: ['nuxt-font-loader'],
+  fontLoader: {
+    // Paste a google link here
+    url: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap',
+
+    // Enable options
+    prefetch: true,
+    preconnect: true
   },
   /*
    ** Build configuration
@@ -68,7 +76,11 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    transpile: ["gsap", "gsap/Draggable"],
+    build: {
+      transpile: [
+        "gsap"
+      ]
+     },
     extend(config, ctx) {}
   }
 }
