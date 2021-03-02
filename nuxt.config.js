@@ -42,6 +42,9 @@ export default {
    ** Global CSS
    */
   css: ["~/assets/mixins.scss"],
+  /*
+   ** Page Transitions
+   */
   pageTransition: {
     name: "slideinout",
     mode: "out-in",
@@ -60,15 +63,10 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['nuxt-font-loader'],
-  fontLoader: {
-    // Paste a google link here
-    url: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap',
-
-    // Enable options
-    prefetch: true,
-    preconnect: true
-  },
+  buildModules: [
+    'nuxt-font-loader',
+    '@nuxtjs/color-mode'
+  ],
   /*
    ** Build configuration
    */

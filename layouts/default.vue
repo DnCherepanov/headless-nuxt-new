@@ -65,10 +65,6 @@ video {
   margin: 25px 0;
 }
 
-small {
-  color: #9d5615;
-}
-
 pre,
 code {
   white-space: pre-wrap; /* css-3 */
@@ -92,5 +88,6 @@ code {
 p {
   margin: 15px 0 20px;
 }
+
 
 </style>

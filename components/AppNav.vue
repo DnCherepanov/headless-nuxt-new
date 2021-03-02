@@ -15,6 +15,12 @@
       <li>
         <nuxt-link to="/contact">Contact</nuxt-link>
       </li>
+      <select v-model="$colorMode.preference">
+      <option value="system">System</option>
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+      <option value="sepia">Sepia</option>
+    </select>
     </ul>
   </div>
 </template>
@@ -31,12 +37,8 @@ export default {
 
 <style lang="scss" scoped>
 .nav {
-  background: #000;
-  color: #fff;
   padding: 1em 100px;
-
   a {
-    color: #fff;
     opacity: 0.8;
     &:hover {
       opacity: 1;

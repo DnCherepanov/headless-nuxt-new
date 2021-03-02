@@ -15,7 +15,4 @@ export default {
 p {
   margin: 15px 0 20px;
 }
-.contact {
-  background:rgb(114, 33, 33);
-}
 </style>

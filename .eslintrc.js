@@ -15,7 +15,7 @@ module.exports = {
     },
     "plugins": [
         "vue",
-        "@typescript-eslint"
+        "@typescript-eslintrc"
     ],
     "rules": {
     }
