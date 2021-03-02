@@ -27,6 +27,7 @@ export default {
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { url: 'https://fonts.googleapis.com/css?family=Alata|Open+Sans&display=swap' }
     ]
   },
   /*
