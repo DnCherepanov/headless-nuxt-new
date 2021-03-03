@@ -15,6 +15,7 @@
         "eslint-plugin-vue": "^7.6.0",
         "gsap": "^3.6.0",
         "nuxt": "^2.0.0",
+        "nuxt-purgecss": "^1.0.0",
         "ufo": "^0.6.7",
         "vue-infinite-loading": "^2.4.5"
     },

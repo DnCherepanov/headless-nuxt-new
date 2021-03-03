@@ -55,6 +55,7 @@ export default {
     name: "slideinout",
     mode: "out-in",
   },
+  
   /*
    ** Plugins to load before mounting the App
    */

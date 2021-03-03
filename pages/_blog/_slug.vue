@@ -8,6 +8,8 @@
 
 <script>
 export default {
+  layout: 'single',
+  
   computed: {
     posts() {
       return this.$store.state.posts;
@@ -33,7 +35,6 @@ main.post {
   max-width: 800px;
   padding: 0 30px 70px;
 }
-
 h1 {
   font-size: 40px;
 }

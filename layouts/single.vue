@@ -1,6 +1,6 @@
 <template>
   <div>
-    <app-nav />
+    <app-nav />a
     <nuxt />
   </div>
 </template>
@@ -8,9 +8,10 @@
 <script>
 import AppNav from "~/components/AppNav.vue";
 
+
 export default {
   components: {
-    AppNav,
+    AppNav
   }
 };
 
@@ -75,5 +76,15 @@ pre {
 code {
   padding: 2px 0;
   line-height: 1.5;
+}
+/*
+/* Transitions */
+.layout-enter-active, 
+.layout-leave-active {
+  transition: opacity .5s
+}
+.layout-enter, 
+.layout-leave-active {
+  opacity: 0
 }
 </style>
